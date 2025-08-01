@@ -37,7 +37,7 @@ The tool is created by **Muhap Yahia** and supports searching through databases 
 ## Installation
 1. **Clone the Repository** (if applicable):
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mohabye/APT-Search-Engine/
    cd apt-search-engine
    ```
 
@@ -108,6 +108,12 @@ The tool is created by **Muhap Yahia** and supports searching through databases 
    Total Resources Found: 128
    ```
 
+<img width="1635" height="916" alt="image" src="https://github.com/user-attachments/assets/436ac525-dea0-43ff-97ab-3562ca83e7cf" />
+
+<img width="1661" height="971" alt="image" src="https://github.com/user-attachments/assets/cdc0bbe1-2237-448b-801d-c4bbd601edb6" />
+
+
+
 5. **Tips for Effective Searches**:
    - Use alternative names or aliases (e.g., `Hidden Cobra` for `Lazarus Group`)
    - Try numbers instead of text (e.g., `APT28` instead of `Fancy Bear`)
@@ -121,40 +127,3 @@ The tool is created by **Muhap Yahia** and supports searching through databases 
   - Detailed text report listing group information and techniques
   - Includes group IDs, names, descriptions, and technique usage
 
-## Data Sources
-The tool aggregates data from the following sources:
-- **ETDA APT Database**: https://apt.etda.or.th
-- **MITRE ATT&CK**: https://attack.mitre.org
-- **Google Cloud APT Groups**: https://cloud.google.com/security/resources/insights/apt-groups
-- **NetEnrich Knowledge Base**: https://know.netenrich.com
-- **SOCRadar Threat Intelligence**: https://socradar.io
-- **Pulsedive Threat Intelligence**: https://pulsedive.com
-- **QiAnXin Threat Intelligence**: https://ti.qianxin.com
-- **Malpedia Database**: https://malpedia.caad.fkie.fraunhofer.de
-- **APTnotes**: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.json
-
-## Limitations
-- **Network Dependency**: Requires a stable internet connection to query external databases
-- **Source Availability**: Results depend on the availability and responsiveness of third-party websites
-- **Rate Limiting**: Some sources may impose rate limits, potentially affecting search performance
-- **Data Completeness**: Information may vary in depth and accuracy depending on the source
-- **No Offline Mode**: Currently does not support offline data caching
-
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository
-2. Create a new branch for your changes
-3. Submit a pull request with a clear description of your updates
-
-Please ensure your code follows the existing style and includes appropriate error handling.
-
-## License
-This tool is provided under the **MIT License**. See the `LICENSE` file for details (if included in the repository).
-
-## Disclaimer
-This tool is intended for legitimate cybersecurity research and threat intelligence purposes only. The author is not responsible for any misuse or damage caused by the tool. Always comply with applicable laws and terms of service when accessing third-party websites.
-
-## Contact
-For questions, feedback, or issues, please contact **Muhap Yahia** via:
-- Email: (Insert contact email if applicable)
-- GitHub: (Insert GitHub username if applicable)
